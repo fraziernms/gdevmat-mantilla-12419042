@@ -17,7 +17,7 @@ class Walker
     tGreen += 0.03f;
     tBlue += 0.03f;
     
-  float scale = map(noise(tScale), 0, 1, 5, 151);
+  float scale = map(noise(tScale), 0, 1, 5, 150);
     tScale += 0.02f;
 
    noStroke();
